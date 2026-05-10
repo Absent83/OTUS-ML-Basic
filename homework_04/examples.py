@@ -50,7 +50,7 @@ def example_local_storage():
     photo = ImageFile(
         name="vacation.jpg",
         storage=storage,
-        path="photos/2024/vacation.jpg",
+        path="photos_lin_alg/2024/vacation.jpg",
         owner="user123",
         resolution=(1920, 1080),
         color_depth=24,
@@ -138,7 +138,7 @@ def example_ftp_storage():
     photo = ImageFile(
         name="remote_photo.jpg",
         storage=ftp,
-        path="/uploads/photos/remote.jpg",
+        path="/uploads/photos_lin_alg/remote.jpg",
         owner="remote_user",
         resolution=(1920, 1080),
         color_depth=24,
